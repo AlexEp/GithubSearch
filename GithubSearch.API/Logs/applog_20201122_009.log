@@ -1,0 +1,5 @@
+2020-11-22T16:53:22.3816587+02:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2020-11-22T16:53:22.4857174+02:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2020-11-22T16:53:22.4870271+02:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "D:\Development\GithubSearch\GithubSearch.API"
+2020-11-22T16:53:22.4986206+02:00 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2020-11-22T16:53:42.5249988+02:00 [INF] () Starting up
