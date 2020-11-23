@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <!-- Brend -->
+    <a class="navbar-brand"  href="#">
+      <img class="artlist_logo d-inline-block align-center mr-3" src="/assets/github.png" height="35" alt="githubicon">
+    </a>
+  
+    <!-- Hamburger Btn -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+   
+    <div class="collapse navbar-collapse" id="navContent">
+       <!-- Some Navigation -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" [routerLink]="['home']" routerLinkActive="active current" >Home<span class="sr-only">(current)</span></a>
+        </li>
+            </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link"  (click)="logout()" >
+            <i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+  
+        </li>
+      </ul>
+  
+    </div>
+  </nav>

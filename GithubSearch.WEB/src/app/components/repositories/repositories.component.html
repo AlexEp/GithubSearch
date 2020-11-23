@@ -1,0 +1,36 @@
+<div class="card mt-5">
+    <div class="card-header">
+      <h3>Welcome {{getUserName()}}!!</h3>
+    </div>
+
+      <div class="card-body">
+        <div class="card-title">
+          <h6>Welcome trainer, are you ready to train your heroes ?</h6>
+        </div>
+
+        <div class="card-body">
+
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Link</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let repository of repositories">
+                <td> {{repository.name}} </td>
+                <td> </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+
